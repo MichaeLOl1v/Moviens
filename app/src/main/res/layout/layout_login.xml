@@ -22,7 +22,9 @@
         android:inputType="textEmailAddress"
         android:maxLength="100"
         android:padding="10sp"
-        android:drawableStart="@drawable/baseline_person"/>
+        android:drawableStart="@drawable/baseline_person"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -33,6 +35,8 @@
         android:maxLength="100"
         android:padding="10sp"
         android:drawableStart="@drawable/baseline_lock"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
         />
 
     <Button
