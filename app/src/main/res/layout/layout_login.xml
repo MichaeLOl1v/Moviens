@@ -81,7 +81,7 @@
         android:layout_gravity="center"
         android:text="Don't have an account yet? Sign Up"
         android:textColor="#ffff"
-        android:textStyle="italic|bold"
+        android:textStyle="italic|bold"/>
 
 
 </LinearLayout>
