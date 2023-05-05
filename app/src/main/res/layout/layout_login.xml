@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cinemadois"
+
     android:orientation="vertical"
     tools:context=".login_layout">
 
@@ -12,55 +14,59 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/movie"/>
+        android:src="@drawable/movie" />
 
     <EditText
+        android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Email"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableStart="@drawable/baseline_person"
         android:hint="UserName"
         android:inputType="textEmailAddress"
         android:maxLength="100"
-        android:padding="10sp"
-        android:drawableStart="@drawable/baseline_person"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"/>
+        android:padding="10sp" />
 
     <EditText
+        android:id="@+id/Senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Senha"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableStart="@drawable/baseline_lock"
         android:hint="Password"
         android:inputType="textPassword"
         android:maxLength="100"
-        android:padding="10sp"
-        android:drawableStart="@drawable/baseline_lock"
+        android:padding="10sp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginLeft="25dp"
-        />
-
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
         android:text="Entrar"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"/>
+        android:backgroundTint="#830606"/>
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="or"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="or"
+        android:textSize="25dp"
 
     <Button
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Sair"
         android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"/>
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#830606"
+        android:text="Sair" />
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-    android:text="Don't have an account yet? Sign Up"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Don't have an account yet? Sign Up"
 
 </LinearLayout>
