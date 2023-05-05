@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/movie" />
+        android:src="@drawable/movienslog" />
 
     <EditText
         android:id="@+id/Email"
@@ -45,15 +45,18 @@
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:text="Entrar"
-        android:backgroundTint="#830606"/>
+        android:text="Sign In"
+        android:backgroundTint="#830606"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#ffff"
         android:text="or"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <Button
         android:layout_width="350dp"
@@ -61,12 +64,16 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:backgroundTint="#830606"
-        android:text="Sair" />
+        android:text="Sign in with Facebook"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="#ffff"
         android:text="Don't have an account yet? Sign Up"
+        android:textStyle="italic|bold"
+
 
 </LinearLayout>
