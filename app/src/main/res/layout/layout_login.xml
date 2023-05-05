@@ -10,23 +10,26 @@
     tools:context=".login_layout">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="340dp"
+        android:layout_height="170dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/movienslog" />
 
     <EditText
         android:id="@+id/Email"
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:drawableStart="@drawable/baseline_person"
-        android:hint="UserName"
+        android:hint="  UserName"
         android:inputType="textEmailAddress"
         android:maxLength="100"
-        android:padding="10sp" />
+        android:padding="10sp"
+        android:textColorHint="#FF595858" />
 
     <EditText
         android:id="@+id/Senha"
@@ -35,44 +38,49 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:drawableStart="@drawable/baseline_lock"
-        android:hint="Password"
+        android:hint=" Password"
         android:inputType="textPassword"
         android:maxLength="100"
-        android:padding="10sp" />
+        android:padding="10sp"
+        android:textColorHint="#595858" />
 
     <Button
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
         android:layout_marginRight="25dp"
-        android:text="Sign In"
         android:backgroundTint="#830606"
-        android:textStyle="bold"/>
+        android:text="Sign In"
+        android:textStyle="bold" />
 
     <TextView
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="#ffff"
         android:text="or"
+        android:textColor="#ffff"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
+        android:layout_marginTop="15dp"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:backgroundTint="#830606"
         android:text="Sign in with Facebook"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="#ffff"
         android:text="Don't have an account yet? Sign Up"
+        android:textColor="#ffff"
         android:textStyle="italic|bold"
 
 
